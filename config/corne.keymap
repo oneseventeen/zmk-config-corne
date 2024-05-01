@@ -31,6 +31,11 @@
             bindings = <&kp LS(MINUS)>;
             key-positions = <30 31 32>;
         };
+
+        cmd_space {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <17 18>;
+        };
     };
 
     keymap {
