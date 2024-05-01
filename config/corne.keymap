@@ -21,6 +21,16 @@
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <13 14 15 16 37>;
         };
+
+        dash {
+            bindings = <&kp MINUS>;
+            key-positions = <18 19>;
+        };
+
+        underscore {
+            bindings = <&kp LS(MINUS)>;
+            key-positions = <30 31 32>;
+        };
     };
 
     keymap {
