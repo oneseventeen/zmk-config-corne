@@ -29,7 +29,7 @@
 
         underscore {
             bindings = <&kp LS(MINUS)>;
-            key-positions = <30 31 32>;
+            key-positions = <30 31>;
         };
 
         cmd_space {
