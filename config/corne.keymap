@@ -26,12 +26,12 @@
 
         dash {
             bindings = <&kp MINUS>;
-            key-positions = <18 19>;
+            key-positions = <19 20>;
         };
 
         underscore {
             bindings = <&kp LS(MINUS)>;
-            key-positions = <30 31>;
+            key-positions = <31 32>;
         };
 
         cmd_space {
