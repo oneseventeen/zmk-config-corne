@@ -14,12 +14,14 @@
 
         clear_bt {
             bindings = <&bt BT_CLR>;
-            key-positions = <12 17 37>;
+            key-positions = <12 17>;
+            layers = <1>;
         };
 
         clear_all_bt {
             bindings = <&bt BT_CLR_ALL>;
-            key-positions = <13 14 15 16 37>;
+            key-positions = <13 14 15 16>;
+            layers = <1>;
         };
 
         dash {
@@ -35,6 +37,7 @@
         cmd_space {
             bindings = <&kp LG(SPACE)>;
             key-positions = <17 18>;
+            layers = <0>;
         };
     };
 
